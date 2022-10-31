@@ -17,6 +17,7 @@
     @include('components.header')
     @yield('Main')
     @include('components.footer')
+    @include('components.footersocial')
 </body>
 
 </html>

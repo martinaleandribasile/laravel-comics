@@ -14,7 +14,7 @@ body {
 }
 
 .boxcontainer {
-  width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -73,6 +73,28 @@ header .tagseries h4 {
   background-color: #0282f9;
 }
 
+.bg-main {
+  background-color: rgb(34, 34, 34);
+  padding: 50px 0;
+}
+.bg-main .boxcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+.bg-main .cardcomic {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: calc(16.6666666667% - 20px);
+  text-transform: uppercase;
+  margin: 0 10px;
+}
+.bg-main .imgbox {
+  width: 100%;
+  height: 70%;
+}
+
 footer .bg-footer {
   background-image: url("../images/footer-bg.jpg");
   background-size: cover;
@@ -108,4 +130,16 @@ footer .bg-footer .rightlinks .copyright {
 footer .bg-footer .flogo {
   align-self: end;
   margin-right: 10%;
+}
+
+.socialbox {
+  padding: 30px 10% 30px;
+  background-color: #434343;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.socialbox i {
+  color: grey;
+  font-size: 30px;
 }
