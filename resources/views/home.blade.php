@@ -1,5 +1,8 @@
 @extends('layouts.layouts')
 @section('Main')
+    <div class="tagseries boxcontainer">
+        <h4 class="text-white">CURRENT SERIES</h4>
+    </div>
     <div class="bg-main">
         <div class="boxcontainer text-white">
 

@@ -46,25 +46,12 @@ header {
     }
 
     .jumbo {
-        height: 500px;
+        height: 435px;
         background-image: url("../images/jumbotron.jpg");
         background-size: cover;
         position: relative;
 
     }
 
-    .tagseries {
-        text-align: center;
 
-
-
-        h4 {
-            position: absolute;
-            bottom: 0;
-            transform: translate(0, 50%);
-            width: 250px;
-            padding: 10px 0;
-            background-color: #0282f9;
-        }
-    }
 }

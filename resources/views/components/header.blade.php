@@ -68,9 +68,7 @@
         </div>
     </div>
     <div class="jumbo">
-        <div class="tagseries boxcontainer">
-            <h4 class="text-white">CURRENT SERIES</h4>
-        </div>
+
     </div>
 
 </header>

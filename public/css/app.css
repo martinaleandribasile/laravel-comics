@@ -56,21 +56,10 @@ header .linksbox .hsearch #search {
   text-align: end;
 }
 header .jumbo {
-  height: 500px;
+  height: 435px;
   background-image: url("../images/jumbotron.jpg");
   background-size: cover;
   position: relative;
-}
-header .tagseries {
-  text-align: center;
-}
-header .tagseries h4 {
-  position: absolute;
-  bottom: 0;
-  transform: translate(0, 50%);
-  width: 250px;
-  padding: 10px 0;
-  background-color: #0282f9;
 }
 
 .bg-main {
@@ -123,6 +112,18 @@ header .tagseries h4 {
 }
 .main-blu .shop .shopcard img {
   width: 20%;
+}
+
+.tagseries {
+  text-align: center;
+}
+.tagseries h4 {
+  position: absolute;
+  top: 530px;
+  transform: translate(0, 50%);
+  width: 250px;
+  padding: 10px 0;
+  background-color: #0282f9;
 }
 
 footer .bg-footer {
