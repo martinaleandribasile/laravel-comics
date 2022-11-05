@@ -14,7 +14,7 @@ body {
 }
 
 .boxcontainer {
-  max-width: 1500px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -84,7 +84,7 @@ header .jumbo {
 }
 .bg-main .boxcontainer .imgbox {
   width: 100%;
-  height: 70%;
+  height: 100%;
 }
 
 .main-blu {
@@ -173,4 +173,101 @@ footer .bg-footer .flogo {
 .socialbox i {
   color: grey;
   font-size: 30px;
+}
+
+.bg-blue {
+  background-color: #0282f9;
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+.bg-blue .poster {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: 250px;
+  bottom: 15px;
+}
+
+.dettailsbox {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dettailsbox .dettails {
+  width: 65%;
+}
+.dettailsbox .dettails .title {
+  color: #003f5e;
+}
+.dettailsbox .dettails .boxprice {
+  padding: 20px 0;
+}
+.dettailsbox .dettails .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  padding: 0 5px;
+}
+.dettailsbox .dettails #selectav {
+  background-color: #198754;
+  color: white;
+  border: none;
+}
+.dettailsbox .dettails #selectav:focus-visible {
+  outline: none !important;
+}
+.dettailsbox .adv {
+  width: 30%;
+}
+.dettailsbox .adv img {
+  width: 100%;
+  height: 80%;
+}
+
+.bg-beige {
+  background-color: #f9f9f9;
+}
+.bg-beige h5 {
+  color: #003f5e;
+}
+.bg-beige .boxdetails2 {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-beige .boxdetails2 .talent {
+  width: 45%;
+}
+.bg-beige .boxdetails2 .talent .box-talent {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-beige .boxdetails2 .talent .box-talent .art {
+  width: 25%;
+  color: #003f5e;
+}
+.bg-beige .boxdetails2 .talent .box-talent .artists {
+  width: 70%;
+}
+.bg-beige .boxdetails2 .talent .box-talent .artists a {
+  text-decoration: none;
+}
+.bg-beige .boxdetails2 .specs {
+  width: 45%;
+}
+.bg-beige .boxdetails2 .specs .box-specs {
+  display: flex;
+  justify-content: space-between;
+}
+.bg-beige .boxdetails2 .specs .box-specs .spc {
+  width: 25%;
+  color: #003f5e;
+}
+.bg-beige .boxdetails2 .specs .box-specs .specs {
+  width: 70%;
+}
+.bg-beige .boxdetails2 .specs .box-specs .specs a {
+  text-decoration: none;
 }

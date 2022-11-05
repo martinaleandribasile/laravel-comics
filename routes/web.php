@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DettailMovieController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,10 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    $data = config('data.comics');
-    $comics = [
-        'comic' => $data
-    ];
-    return view('home', $comics);
-});
+Route::get('/', 'HomeController@index');
+Route::get('/dettail', 'DettailMovieController@index');

@@ -1,0 +1,125 @@
+.bg-blue {
+    background-color: #0282f9;
+    height: 80px;
+    width: 100%;
+    position: relative;
+
+    .poster {
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        left: 250px;
+        bottom: 15px;
+    }
+}
+
+.dettailsbox {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .dettails {
+        width: 65%;
+
+        .title {
+            color: #003f5e;
+        }
+
+        .boxprice {
+            padding: 20px 0;
+        }
+
+        .price {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 70%;
+            padding: 0 5px;
+        }
+
+        #selectav {
+            background-color: #198754;
+            color: white;
+            border: none;
+
+            &:focus-visible {
+                outline: none !important;
+            }
+        }
+
+    }
+
+    .adv {
+        width: 30%;
+
+        img {
+            width: 100%;
+            height: 80%;
+        }
+    }
+
+}
+
+.bg-beige {
+    background-color: #f9f9f9;
+
+    h5 {
+        color: #003f5e;
+    }
+
+    .boxdetails2 {
+        display: flex;
+        justify-content: space-between;
+
+        .talent {
+            width: 45%;
+
+            .box-talent {
+                display: flex;
+                justify-content: space-between;
+
+                .art {
+                    width: 25%;
+                    color: #003f5e;
+                }
+
+                .artists {
+                    width: 70%;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+
+        }
+
+        .specs {
+            width: 45%;
+
+            .box-specs {
+                display: flex;
+                justify-content: space-between;
+
+                .spc {
+                    width: 25%;
+                    color: #003f5e;
+                }
+
+                .specs {
+                    width: 70%;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+
+}

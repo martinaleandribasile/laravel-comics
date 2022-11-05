@@ -6,9 +6,10 @@
     <div class="bg-main">
         <div class="boxcontainer text-white">
 
-            @foreach ($comic as $element)
+            @foreach ($comics as $key => $element)
                 <div class="cardcomic">
-                    <img class="imgbox" src="{{ $element['thumb'] }}" alt="">
+                    <a href="/dettail?id={{ $key }}"><img class="imgbox" src="{{ $element['thumb'] }}"
+                            alt=""></a>
                     <h6 class="pe-4">{{ $element['title'] }}</h6>
                 </div>
             @endforeach

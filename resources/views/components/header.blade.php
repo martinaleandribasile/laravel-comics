@@ -1,43 +1,43 @@
 @php
     $links = [
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'CHARACTER',
         ],
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'COMICS',
         ],
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'MOVIES',
         ],
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'TV',
         ],
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'GAMES',
         ],
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'COLLECTIBLES',
         ],
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'CHARACTER',
         ],
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'FANS',
         ],
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'NEWS',
         ],
         [
-            'links' => '',
+            'links' => '#',
             'title' => 'SHOP',
         ],
     ];
@@ -58,7 +58,7 @@
             <div class="himgbox"> <img src="{{ asset('images/dc-logo.png') }}" alt=""></div>
             <div class="links">
                 @foreach ($links as $link)
-                    <a href="#">{{ $link['title'] }}</a>
+                    <a href="{{ $link['links'] }}">{{ $link['title'] }}</a>
                 @endforeach
             </div>
             <div class="hsearch">
